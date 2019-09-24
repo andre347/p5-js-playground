@@ -16,7 +16,7 @@ function windowResized() {
 function draw() {
   background(0);
   stroke("orange");
-  strokeWeight(2.5);
+  strokeWeight(3);
   for (let x = 0; x < windowWidth; x += step) {
     for (let y = 0; y < windowWidth; y += step) {
       drawLine(x, y, step, step);
